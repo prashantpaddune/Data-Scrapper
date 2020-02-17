@@ -1,9 +1,12 @@
 # Data-Scrapper
-=============
-
-Nodejs Daemon which will Scrap the IMDB Movie Data, Creates CSV file and store it.
-
-
+  <a href="https://nodejs.org/">
+    <img
+      alt="Node.js"
+      src="https://nodejs.org/static/images/logo-light.svg" height="100"
+    />
+  </a>
+ 
+Nodejs Daemon which will Scrap the IMDB Movie Data and Store it in the form of CSV file.
 ### Requirements
 
 1. Node.js installed
@@ -15,11 +18,9 @@ Nodejs Daemon which will Scrap the IMDB Movie Data, Creates CSV file and store i
 3. Do `node .` to start the daemon.
 4. Check root directory to see the scrapped movie data pushed as csv file.
 
-
 ### Node package dependencies
 
-1. cheerio - as html parser
-2. express - for the dashboard app
-3. jade - templating engine
-4. mongodb - node driver for mongo
-5. socket.io - for the realtime push
+1. axios - https://github.com/axios/axios
+2. jsdom - https://github.com/jsdom/jsdom
+3. json2csv - https://github.com/zemirco/json2csv
+
